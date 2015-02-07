@@ -3,7 +3,33 @@
 #+KEYWORDS: algorithms, computer science, wiki, korey hinton
 
 #+INCLUDE: header.org
-  Algorithms .
+
+* Big-O Algorithm Computational Complexity
+** Big-O Domination
+   - O(2^n) dominates O(n^2)
+   - O(n^2) dominates O(n log(n))
+   - O(n^2) and O(n^2 + n) don't dominate each other
+   - O(n^4) dominates O(n^3 + n^2)
+   - O(log_2 n) and O(log_10 n) don't dominate each other
+   - O(3^n) dominates O(2^n)
+   - O(2^{2n}) dominates O(2^n)
+#+BEGIN_SRC haskell
+limit dominated/dominating as n->infinity = 0
+#+END_SRC
+
+If the Big-O complexity of an algorithm dominates another then the limit of the dominated algorithm divided by the dominating algorithm will approach zero as n approaches infinity.
+
+Example: 2^n dominates n^2
+#+BEGIN_SRC org
+limit n^2 / 2^n as n->infinity = 0
+#+END_SRC
+
+
+#+HTML: <script type="text/javascript" id="WolframAlphaScript57ad04c0f04cc92e742205985c18023e" src="https://www.wolframalpha.com/widget/widget.jsp?id=57ad04c0f04cc92e742205985c18023e"></script>
+
+http://www.cs.dartmouth.edu/~dwagn/research/ordernotation.html
+
+http://bigocheatsheet.com
 
 
 #+INCLUDE: footer.org
