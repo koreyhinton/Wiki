@@ -1,0 +1,9 @@
+#+TITLE: Algorithms
+#+DESCRIPTION: Algorithms
+#+KEYWORDS: algorithms, computer science, wiki, korey hinton
+
+#+INCLUDE: header.org
+  Algorithms .
+
+
+#+INCLUDE: footer.org
