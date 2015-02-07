@@ -33,3 +33,15 @@ http://bigocheatsheet.com
 
 
 #+INCLUDE: footer.org
+** Sorting
+*** Merge Sort
+#+BEGIN_SRC js
+function mergesort(list) {
+
+}
+
+function merge() {
+
+}
+#+END_SRC
+*** Quick Sort
