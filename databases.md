@@ -10,6 +10,6 @@ If the database is read-only:
 - serializable - no conflicts
 - repeatable read - no conflicts
 
-To prove it is serializable we can give another serializable schedule (or show no cycles in precedence graph)
+To prove it is serializable we can give it a schedule that is serializable (or show no cycles in precedence graph)
 
 A schedule looks like: T2, T3, T4
