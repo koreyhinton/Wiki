@@ -11,3 +11,5 @@ If the database is read-only:
 - repeatable read - no conflicts
 
 To prove it is serializable we can give another serializable schedule (or show no cycles in precedence graph)
+
+A schedule looks like: T2, T3, T4
