@@ -13,7 +13,7 @@
    - O(log_2 n) and O(log_10 n) don't dominate each other
    - O(3^n) dominates O(2^n)
    - O(2^{2n}) dominates O(2^n)
-#+BEGIN_SRC haskell
+#+BEGIN_SRC org
 limit dominated/dominating as n->infinity = 0
 #+END_SRC
 
