@@ -16,4 +16,4 @@ Given a program as input, can you determine whether the program will terminate o
 
 (aka Boolean satisfiability Problem)
 
-find ... that satisfies ... [boolean expression]
+find ... that satisfies [boolean expression]
