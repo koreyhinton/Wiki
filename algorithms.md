@@ -14,6 +14,6 @@ Given a program as input, can you determine whether the program will terminate o
 
 ## Search Problem
 
-(aka Boolean satisfiability Problem)
+(aka Boolean Satisfiability Problem)
 
 find ... that satisfies [boolean expression]
