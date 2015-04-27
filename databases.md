@@ -9,3 +9,5 @@
 If the database is read-only:
 - serializable - no conflicts
 - repeatable read - no conflicts
+
+To prove it is serializable we can give another serializable schedule (or show no cycles in precedence graph)
