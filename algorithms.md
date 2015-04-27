@@ -17,3 +17,7 @@ Given a program as input, can you determine whether the program will terminate o
 (aka Boolean Satisfiability Problem)
 
 find ... that satisfies [boolean expression]
+
+## Optimization Problem
+
+from all ... find the best
